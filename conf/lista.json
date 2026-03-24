@@ -1,9 +1,84 @@
 {
   "tasks": [
-    { "id": 1, "tarea": "Hacer Tarea Api Json", "completado": "false" },
-    { "id": 2, "tarea": "Crear Repositorio Github", "completado": "false" },
-    { "id": 3, "tarea": "Elegir Usuario", "completado": "false" },
-    { "id": 4, "tarea": "Hacer el Crud correspondiente", "completado": "false" },
-    { "id": 5, "tarea": "Investigar Métodos Web", "completado": "false" }
-  ]
+    {
+      "id": "1",
+      "tarea": "Hacer Tarea Api Json",
+      "completado": "false"
+    },
+    {
+      "id": "2",
+      "tarea": "Crear Repositorio Github",
+      "completado": "false"
+    },
+    {
+      "id": "3",
+      "tarea": "Elegir Usuario",
+      "completado": "false"
+    },
+    {
+      "id": "4",
+      "tarea": "Hacer el Crud correspondiente",
+      "completado": "false"
+    },
+    {
+      "id": "5",
+      "tarea": "Investigar Métodos Web",
+      "completado": "false"
+    },
+    {
+      "title": "foo",
+      "body": "bar",
+      "userId": 1,
+      "id": "dFCvQ4RJYd8"
+    },
+    {
+      "title": "foo",
+      "body": "bar",
+      "userId": 1,
+      "id": "-Y7MWVxwuxQ"
+    },
+    {
+      "title": "foo",
+      "body": "bar",
+      "userId": 1,
+      "id": "ycRZWrSih5E"
+    },
+    {
+      "title": "foo",
+      "body": "bar",
+      "userId": 1,
+      "id": "R9xkUHjDdM0"
+    },
+    {
+      "title": "foo",
+      "body": "bar",
+      "userId": 1,
+      "id": "Oz_5WkNinhE"
+    },
+    {
+      "title": "foo",
+      "body": "bar",
+      "userId": 1,
+      "id": "Q49oN_gL-bg"
+    },
+    {
+      "title": "foo",
+      "body": "bar",
+      "userId": 1,
+      "id": "vack5MysZJw"
+    },
+    {
+      "title": "foo",
+      "body": "bar",
+      "userId": 1,
+      "id": "LJ6kSlSqdrI"
+    },
+    {
+      "title": "foo",
+      "body": "bar",
+      "userId": 1,
+      "id": "ILIE27VMwpk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
