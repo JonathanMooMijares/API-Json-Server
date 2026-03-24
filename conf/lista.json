@@ -1,0 +1,9 @@
+{
+  "tasks": [
+    { "id": 1, "tarea": "Hacer Tarea Api Json", "completado": "false" },
+    { "id": 2, "tarea": "Crear Repositorio Github", "completado": "false" },
+    { "id": 3, "tarea": "Elegir Usuario", "completado": "false" },
+    { "id": 4, "tarea": "Hacer el Crud correspondiente", "completado": "false" },
+    { "id": 5, "tarea": "Investigar Métodos Web", "completado": "false" }
+  ]
+}
