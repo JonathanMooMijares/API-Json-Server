@@ -19,13 +19,13 @@ document.getElementById('Select').addEventListener('click', () => {
 
 });
 
-function agregarDatos() {
+function agregarDatos(idTarea, tarea, estado) {
     fetch('http://localhost:3000/tasks', {
         method: 'POST',
         body: JSON.stringify({
-            title: 'foo',
-            body: 'bar',
-            userId: 1,
+            id: idTarea,
+            tarea: tarea,
+            completado: estado,
         }),
         headers: {
             'Content-type': 'application/json; charset=UTF-8',
@@ -35,11 +35,14 @@ function agregarDatos() {
         .then((json) => console.log(json));
 }
 
-// document.getElementById('Insert').addEventListener('click', () => {
-//     const contenido = document.getElementById('Contenido');
-//     agregarDatos();
+document.getElementById('Insert').addEventListener('click', () => {
+    const idTarea = document.getElementById('idTarea').value;
+    const tarea = document.getElementById('tarea').value;
+    const completado = document.getElementById('completado').value;
 
-// });
+    agregarDatos(idTarea, tarea, completado);
+
+});
 const myModal = new bootstrap.Modal(
     document.getElementById("modalId"),
     options,

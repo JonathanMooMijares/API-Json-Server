@@ -25,33 +25,53 @@
                     </div>
                     <div class="col-3">
                         <div class="d-grid gap-2">
-                            <button type="button" name="" id="Insert" class="p-3 btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#modalId"><p class="h5">Agregar Tarea</p></button>
-                                <!-- Modal Body -->
-                                <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
-                                <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="static"
-                                    data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId"
-                                    aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
-                                        role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="modalTitleId">
-                                                    Modal title
-                                                </h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
+                            <button type="button" name="" id="" class="p-3 btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#modalId">
+                                <p class="h5">Agregar Tarea</p>
+                            </button>
+                            <!-- Modal Body -->
+                            <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                            <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="static"
+                                data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                                    role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleId">
+                                                Modal title
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <form method="POST">
+                                            <div class="p-5">
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Id</label>
+                                                    <input type="text" name="idTarea" id="idTarea" class="form-control"
+                                                        placeholder="" autocomplete="off"/>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Tarea</label>
+                                                    <input type="text" name="tarea" id="tarea" class="form-control"
+                                                        placeholder="" />
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="" class="form-label">Completado</label>
+                                                    <input type="text" name="completado" id="completado" class="form-control"
+                                                        placeholder="" />
+                                                </div>
                                             </div>
-                                            <div class="modal-body">Body</div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
                                                     Close
                                                 </button>
-                                                <button type="button" class="btn btn-primary">Save</button>
+                                                <button type="button" id="Insert" data-bs-dismiss="modal" class="btn btn-primary">Save</button>
                                             </div>
-                                        </div>
+                                        </form>
                                     </div>
                                 </div>
+                            </div>
 
                             </button>
                         </div>
@@ -84,7 +104,7 @@
 
         <!-- Optional: Place to the bottom of scripts -->
         <script>
-            
+
         </script>
 
     </main>
