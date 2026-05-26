@@ -1,39 +1,40 @@
 {
   "tasks": [
     {
-      "id": "1",
-      "tarea": "Hacer Tarea Api Json",
-      "completado": "false"
+      "id": "ZOWIpn76S7s",
+      "clave": "1",
+      "tarea": "Tarea 1",
+      "completado": true
     },
     {
-      "id": "2",
+      "clave": "2",
       "tarea": "Crear Repositorio Github",
-      "completado": "false"
+      "completado": "false",
+      "id": "SSuRrQ5CviA"
     },
     {
-      "id": "3",
+      "clave": "3",
       "tarea": "Elegir Usuario",
-      "completado": "false"
+      "completado": "false",
+      "id": "2jlzLXHK4bk"
     },
     {
-      "id": "4",
+      "clave": "4",
       "tarea": "Hacer el Crud correspondiente",
-      "completado": "false"
+      "completado": "false",
+      "id": "6XFe54VTzYU"
     },
     {
-      "id": "5",
-      "tarea": "Investigar Métodos Web",
-      "completado": "false"
+      "id": "mmOiYcxYdIg",
+      "clave": "5",
+      "tarea": "5",
+      "completado": false
     },
     {
-      "id": "NLZsndo0wjk",
-      "tarea": "Hola",
-      "completado": "false"
-    },
-    {
-      "id": "M7L1qzIcaIM",
-      "tarea": "lenguajejs",
-      "completado": "false"
+      "clave": 6,
+      "tarea": "6",
+      "completado": "6",
+      "id": "ose2_DASMYY"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

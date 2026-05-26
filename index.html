@@ -49,7 +49,7 @@
                                                 <div class="mb-3">
                                                     <label for="" class="form-label">Id</label>
                                                     <input type="text" name="idTarea" id="idTarea" class="form-control"
-                                                        placeholder="" autocomplete="off"/>
+                                                        placeholder="" autocomplete="off" />
                                                 </div>
                                                 <div class="mb-3">
                                                     <label for="" class="form-label">Tarea</label>
@@ -58,15 +58,16 @@
                                                 </div>
                                                 <div class="mb-3">
                                                     <label for="" class="form-label">Completado</label>
-                                                    <input type="text" name="completado" id="completado" class="form-control"
-                                                        placeholder="" />
+                                                    <input type="text" name="completado" id="completado"
+                                                        class="form-control" placeholder="" />
                                                 </div>
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
                                                     Close
                                                 </button>
-                                                <button type="button" id="Insert" data-bs-dismiss="modal" class="btn btn-primary">Save</button>
+                                                <button type="button" id="Insert" data-bs-dismiss="modal"
+                                                    class="btn btn-primary">Save</button>
                                             </div>
                                         </form>
                                     </div>
@@ -77,20 +78,79 @@
                         </div>
 
                     </div>
+
                     <div class="col-3">
                         <div class="d-grid gap-2">
-                            <button type="button" name="" id="" class="p-3 btn btn-primary">
-                                <p class="h5">Eliminar Información</p>
+                            <button type="button" name="" id="botonActualizar" class="p-3 btn btn-primary" onclick="actualizarDatos()" data-bs-toggle="modal"
+                                data-bs-target="#modalUpdate" >
+                                <p class="h5">Actualizar Tarea</p>
                             </button>
+
+                            <div class="modal fade" id="modalUpdate" tabindex="-1" data-bs-backdrop="static"
+                                data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xxl"
+                                    role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleId">
+                                                Modal title
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        
+                                            <div class="mb-3" id="idTareaUpdate"></div>
+
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                    Close
+                                                </button>
+                                                <button type="button" id="update" 
+                                                    class="btn btn-primary">Save</button>
+                                            </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
+
                     <div class="col-3">
                         <div class="d-grid gap-2">
-                            <button type="button" name="" id="" class="p-3 btn btn-primary">
-                                <p class="h5">Actualizar Información</p>
-                            </button> <!-- Modal trigger button -->
+                            <button type="button" name="" id="botonActualizar" class="p-3 btn btn-primary" onclick="borrarDatos()" data-bs-toggle="modal"
+                                data-bs-target="#modalDelete" >
+                                <p class="h5">Eliminar Tarea</p>
+                            </button>
 
+                            <div class="modal fade" id="modalDelete" tabindex="-1" data-bs-backdrop="static"
+                                data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xxl"
+                                    role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalTitleId">
+                                                Modal title
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        
+                                            <div class="mb-3" id="idTareaDelete"></div>
+
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                    Close
+                                                </button>
+                                                <button type="button" id="delete" 
+                                                    class="btn btn-primary">Save</button>
+                                            </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
